@@ -1,1 +1,1 @@
-This Repository have my learning journey of C++.
+This Repository carries my learning journey of C++.
