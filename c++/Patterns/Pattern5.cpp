@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Triangle Pattern 4;
+//Triangle Pattern 5;
 
 void printTriangle(int n){
     // code here
