@@ -27,10 +27,9 @@ int main() {
     int n;
     cout<<"Enter side:";
     cin >> n;
+
+    cout<<endl;
     
-    printTriangle(n);
-   
-    //cout<<endl;
-    
+    printTriangle(n);    
     return 0;
 }
