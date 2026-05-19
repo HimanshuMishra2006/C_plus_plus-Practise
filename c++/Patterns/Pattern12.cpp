@@ -9,7 +9,7 @@ Output:
 7 8 9 10      */
 
 int main() {
-    int n,t=0,i=1,j=1;
+    int n,t=0,i=1,j=1;   // 't' is a temp var
     
     cout<<"Enter n:";
     cin >> n;
@@ -20,7 +20,7 @@ int main() {
         {
             cout<<j<<" ";
         }
-        t=j-1;
+        t=j-1;    
         cout<<endl;
     }
 
