@@ -1,18 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Triangle Pattern;
-
-void printTriangle(int n){
-    // code here
-    for(int i=1;i<=n;i++)
+void triangleWall(int s){
+    
+    for(int i=0;i<s;i++)
     {
-        for(int j=1;j<=i;j++)
+        for(int j=0;j<=i;j++)
         {
-            cout<<j<<" ";
+            cout<<"* ";
         }
         
-        cout<<endl;
+      cout<<endl;
     }
 }
 
@@ -21,7 +19,7 @@ int main() {
     cout<<"Enter side:";
     cin >> n;
     
-    printTriangle(n);
+    triangleWall(n);
    
     //cout<<endl;
     
