@@ -34,7 +34,7 @@ int main()
 {
     vector<int>arr;
     int x;
-    cout<<"Enter values of the array(stop usin ctrl+z):";
+    cout<<"Enter values of the array(stop using ctrl+z):";
     while(cin>>x)
     {
         arr.push_back(x);
