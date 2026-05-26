@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 /*Given a singly linked list, delete the middle of the linked list.
 ->Middle for odd and second middle for even.
 */
