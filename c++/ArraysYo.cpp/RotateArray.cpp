@@ -3,7 +3,7 @@ using namespace std;
 #include<vector>
 #include<algorithm>
 /*Rotate an array upto d places in clock-wise direction : 
-  arr=1 2 3 4 5 , d= 2, then resultant array = 3 4 5 1 2 
+  arr=1 2 3 4 5 , d= 2, then resultant array = 3 4 5 1 2 */
 
 void rotateArr(vector<int>& arr, int d)
     {
