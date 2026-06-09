@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 #include<vector>
-
+//Bit manipulation can help us walk through this ques easily;
 int findUnique(vector<int> &arr){
         
     int res=0;
 
     for(int i=0;i<arr.size();i++)
     {
-        res=res^arr[i];
+        res=res^arr[i];      // every even occuring number cancels itself out;
     }
     
-    return res;
+    return res;     //thus leaving us the unique element;
 }
 
 int main()
@@ -26,7 +26,7 @@ int main()
 
     cout<<endl;
 
-    cout<<"Unique Element : "<<findUnique(arr);
+    cout<<"Unique Element : "<<findUnique(arr);   // TC -> O(n);  SC -> O(n)
 
     return 0;
 }
