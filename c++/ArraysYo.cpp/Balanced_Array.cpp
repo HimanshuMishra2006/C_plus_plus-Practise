@@ -39,6 +39,5 @@ int main()
     cout<<endl;
 
     cout<<"Minimum value to balance the array is : "<<minValueToBalance(arr);
-    //func calling
-    cout<<":";
+
 }

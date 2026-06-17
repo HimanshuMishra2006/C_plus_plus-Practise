@@ -3,6 +3,9 @@ using namespace std;
 #include<algorithm>
 #include<vector>
 
+// The given arr would be like arr={0,0,0,0,1,1,1}, thus binary and also sorted.
+// We need to find the index where the first 1 occurs. For above array, its 4.
+
 
 int firstIndex(vector<int> &arr)
 {
