@@ -3,6 +3,11 @@ using namespace std;
 #include<algorithm>
 #include<vector>
 
+/* arr=[1,4,6,2,3,5] 
+    sum of first half=1+4+6=11
+    sum of second half= 2+3+5=10
+    thus to balance the array, add 1 in second half.
+*/
 int minValueToBalance(vector<int> &arr)
 {
     
