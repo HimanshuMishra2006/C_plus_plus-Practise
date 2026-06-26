@@ -1,6 +1,30 @@
 #include<iostream>
 using namespace std;
 
+// for n=4
+/*
+
+*   * 
+ * *  
+  *    
+  *
+
+*/
+
+//for n=8
+/*
+
+*       *
+ *     * 
+  *   *  
+   * *   
+    *
+    *
+    *
+    *
+
+  */  
+
 void pattern(int n)
 {
 for(int i=0;i<n/2;i++)
