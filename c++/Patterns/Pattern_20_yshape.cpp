@@ -25,8 +25,12 @@ using namespace std;
 
   */  
 
+
+
 void pattern(int n)
 {
+
+ // 'V' part
 for(int i=0;i<n/2;i++)
     {
             for(int j=0;j<=i;j++)
@@ -48,6 +52,7 @@ for(int i=0;i<n/2;i++)
             cout<<endl;
         }
 
+        //  '|' tail part
         for(int i=0;i<n/2;i++)
         {
             for(int j=0 ; j<n/2 ; j++)
