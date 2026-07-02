@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
+//print names n times
 void printNos(string name,int n)
 {
         
