@@ -3,10 +3,11 @@ using namespace std;
 
 int nthFibonacci(int n)
 {
-        
+    //base condition  
     if(n==0) return 0;
     if(n==1) return 1;
-    
+
+    //recursion call
     return nthFibonacci(n-1)+nthFibonacci(n-2);
 }
 
