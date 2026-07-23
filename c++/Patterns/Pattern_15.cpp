@@ -4,13 +4,13 @@ using namespace std;
 
 int NthTerm(int n)
     {
-        //Using Recursion;
+        //Using Recursion -> TC: O(n), SC : O(n);
         /*
         const int MOD=1e9+7;
         if(n==1) return 2;
         return ((n)*(NthTerm(n-1))%MOD+1)%MOD;*/
         
-        //Using loop
+        //Using loop ->  TC: O(n), SC : O(1)
         const int MOD=1e9+7;
         long long t=2;
         
