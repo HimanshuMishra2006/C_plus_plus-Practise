@@ -2,9 +2,10 @@
 using namespace std;
 #include<vector>
 
+//helping Recursive function
 bool Binary_Search(int l,int r,vector<int>arr,int k)
 {
-        
+    //base case
     if(l>r) return false;
     int mid=l+(r-l)/2;
     
@@ -25,7 +26,8 @@ bool binarySearch(vector<int>& arr, int k) {
         
     int l=0;
     int r=arr.size()-1;
-    
+
+    //calling the function
     return Binary_Search(l,r,arr,k);
 }
 
