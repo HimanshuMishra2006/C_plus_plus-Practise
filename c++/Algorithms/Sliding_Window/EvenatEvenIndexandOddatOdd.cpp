@@ -3,6 +3,7 @@ using namespace std;
 #include<algorithm>
 #include<vector>
 
+//function definition
 vector<int> reArrange(vector<int>& arr) {
         // code here
         int n=arr.size();
@@ -26,12 +27,13 @@ int main()
 {
     vector<int>arr;
     int x;
-
+    //input arr
     cout<<"Enter values of the array(stop using ctrl+z):"<<endl;
     while(cin>>x)
     {
         arr.push_back(x);
     }
+    // a vector storing the returnn value of the function
     vector<int>result = reArrange(arr);
 
     for(int i=0;i<result.size();i++)
