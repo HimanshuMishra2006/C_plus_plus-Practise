@@ -3,10 +3,13 @@ using namespace std;
 #include<vector>
 #include<map>
 
+// find the element in the array which occurs majority times
+
 vector<int> findMajority(vector<int>& arr)
 {
-        // Code here
+        // map for storing both index and value
         map<int,int> mpp;
+        
         vector<int>result;
         
         for(int i:arr)
