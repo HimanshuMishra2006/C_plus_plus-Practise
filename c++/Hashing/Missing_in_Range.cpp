@@ -1,32 +1,33 @@
 #include<iostream>
 using namespace std;
 #include<vector>
+#include<unordered_set>
 
 
 vector<int> missingRange(vector<int>& arr, int low, int high)
 {
 
-    vector<int>res(high+1,0);
+    unordered_set<int> store;
     vector<int>result;
 
     for(int i:arr)
     {
         if(i>=low && i<=high)
         {
-            res[i]=i;
+            store.insert(i);
         }
-    } 
-    
+        
+    }
+
     for(int i=low;i<=high;i++)
     {
-        if(res[i]==0)
+        if(store.find(i)==store.end())
         {
             result.push_back(i);
         }
     }
 
-    return result;
-    
+    return result; 
 }
 
 int main()
