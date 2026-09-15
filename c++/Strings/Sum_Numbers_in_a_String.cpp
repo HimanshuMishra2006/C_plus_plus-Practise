@@ -15,12 +15,12 @@ int findSum(string& s)
             
             if(i==s.length()-1)
             {
-                sum+=stoi(numStr);
+                sum+=stoi(numStr); //stoi() converts str into int
             }
         }
         else
         {
-            if(!numStr.empty())
+            if(!numStr.empty()) // check if string is empty
             {
                 sum+=stoi(numStr);
                 numStr="";
