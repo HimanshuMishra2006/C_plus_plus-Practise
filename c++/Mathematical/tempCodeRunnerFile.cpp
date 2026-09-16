@@ -1,0 +1,1 @@
+//mathematical formula for sum of natural numbers series
