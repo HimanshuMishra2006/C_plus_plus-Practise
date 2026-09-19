@@ -2,34 +2,31 @@
 using namespace std;
 #include<unordered_map>
 #include<vector>
-#include<algorithm>
+//#include<algorithm>
+
+    /* //Brute
+
+    int maxVal=*max_element(arr.begin(),arr.end());
+    vector<int> res(maxVal+1,0);
+    
+    for(int x:arr)
+    {
+        res[x]++;
+        if(res[x]==k) return x;
+    }*/
 
  int firstElementKTime(vector<int>& arr, int k) {
-        
-        int maxVal=*max_element(arr.begin(),arr.end());
-        vector<int> res(maxVal+1,0);
-        
-        for(int x:arr)
-        {
-            res[x]++;
-            if(res[x]==k) return x;
-        }
-        
-        return -1;
-    }
-    
-    //better
-    /*
-        int firstElementKTime(vector<int>& arr, int k) {
-            unordered_map<int,int> freq;
-            for (int x : arr) {
-                freq[x]++;
-                if (freq[x] == k) return x;
-            }
-            return -1;
-        }
+          
+    unordered_map<int,int> freq;
 
-    */
+        for (int x : arr) {
+            freq[x]++;
+            if (freq[x] == k) return x;
+        }
+        
+    return -1;
+}
+        
 
 int main()
 {
