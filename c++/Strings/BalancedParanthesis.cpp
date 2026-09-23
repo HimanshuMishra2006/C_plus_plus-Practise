@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool isBalanced(string &s) {
+bool isBalanced(string &as) {
     stack<char> st;
     for (char c : s) {
         if (c == '(' || c == '{' || c == '[') {
