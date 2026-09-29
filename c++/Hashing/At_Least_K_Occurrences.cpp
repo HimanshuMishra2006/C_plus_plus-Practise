@@ -21,7 +21,7 @@ using namespace std;
 
         for (int x : arr) {
             freq[x]++;
-            if (freq[x] == k) return x;
+            if (freq[x] == k) return x; //this tracks the first element to exceed given freq 'k'
         }
         
     return -1;
